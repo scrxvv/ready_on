@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(../img/back.png);
+    width: 100%;
+    height: 1070px;
+}
+
+.nav {
+    padding-top: 69px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-menu {
+    margin-left: 20px;
+    border: 2px solid transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-menu:hover {
+    border-color: #BA111A;
+    border-radius: 10px;
+
+}
+
+.menu {
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    padding-right: 20px;
+    width: 14px;
+    height: 15px;
+}
+
+.language {
+    margin-left: 50px;
+    width: 37px;
+    height: 25px;
+}
+
+.big-text-under-header {
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.Red-text {
+    color: #DE131E;
+
+}
+
+.under-header {
+    margin-top: 505px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-w-3-lines {
+    display: flex;
+    align-items: center;
+}
+
+.text-w-lines {
+    padding-left: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #ffffff;
+    width: 360px;
+    height: 34px;
+}
+
+a.button24 {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #DE131E;
+    border-radius: 10px;
+    background: #DE131E;
+    transition: 0.2s;
+    width: 207px;
+    height: 59px;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a.button24:hover {
+    background: #BA111A;
+}
+
+a.button24:active {
+    background: #BA111A;
+}
+
+.mouse-icon {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    padding-top: 79px;
+    background-color: #060606;
+}
+
+.track-w-calendar {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.big-text-main {
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.date-track {
+    margin-top: 76px;
+    font-size: 120px;
+}
+
+.under-date {
+    Font-size: 15px;
+    color: #ffffff;
+}
+
+.track {
+    margin-top: 10px;
+}
+
+.point {
+    margin-top: 91px;
+    width: 589px;
+    height: 86px;
+    background-color: #212121;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.half {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.circle {
+    width: 54px;
+    height: 54px;
+    background: #DE131E;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 80px;
+    Line-height: 21px;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 10px;
+}
+
+.month {
+    Font-size: 13px;
+    Line-height: 21px;
+    color: #ffffff;
+}
+
+.wensday {
+    Font-size: 10px;
+    Line-height: 21px;
+    color: #595959;
+}
+
+.text-point {
+    color: #ffffff;
+    Font-size: 15px;
+    Line-height: 21px;
+    width: 360px;
+}
+
+.point2 {
+    margin-top: 81px;
+    width: 589px;
+    height: 86px;
+    background-color: #212121;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.block-w-staps {
+    padding-top: 63px;
+    background-color: #060606;
+}
+
+.header-in-staps {
+    color: #ffffff;
+    Font-size: 40px;
+}
+
+.staps {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stap-1 {
+    background-image: url(../img/1stap.svg);
+    height: 417px;
+    width: 1067px;
+}
+
+.nomber-stap1 {
+    font-size: 150px;
+    color: #DE131E;
+    margin-top: 37px;
+}
+
+.stap-description1 {
+    padding-left: 657px;
+}
+
+.stap-header-description {
+
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.stripe {
+    background-color: #DE131E;
+    width: 39px;
+    height: 4px;
+    color: #DE131E;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.stap-under-description {
+    Width: 332px;
+    color: #ffffff;
+}
+
+.stap-2 {
+    background-image: url(../img/2stap.svg);
+    height: 418px;
+    width: 1070px;
+}
+
+.nomber-stap2 {
+    font-size: 150px;
+    color: #DE131E;
+    margin-top: 37px;
+}
+
+.stap-description2 {
+    padding-left: 0px;
+}
+
+.stap-3 {
+    background-image: url(../img/3stap.svg);
+    height: 430px;
+    width: 1113px;
+}
+
+.nomber-stap3 {
+    font-size: 150px;
+    color: #DE131E;
+    margin-top: 37px;
+}
+
+.stap-description3 {
+    padding-left: 686px;
+}
+
+.stap-4 {
+    background-image: url(../img/4stap.svg);
+    height: 412px;
+    width: 1075px;
+}
+
+.nomber-stap4 {
+    font-size: 150px;
+    color: #DE131E;
+    margin-top: 37px;
+}
+
+.stap-description4 {
+    padding-left: 0px;
+}
+
+.stap-5 {
+    background-image: url(../img/5stap.svg);
+    height: 415px;
+    width: 1086px;
+}
+
+.nomber-stap5 {
+    font-size: 150px;
+    color: #DE131E;
+    margin-top: 37px;
+}
+
+.stap-description5 {
+    position: relative;
+    top: 120px;
+    padding-left: 672px;
+
+}
+
+.button-under-staps {
+    margin-top: 122px;
+}
+
+.sport-cars {
+    background-color: #060606;
+    padding-top: 79px;
+}
+
+.text-header-sportcar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descrption-in-text-w-sportcar {
+    color: #FFFFFFE3;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 154.1%;
+    width: 828px;
+    height: 56px;
+}
+
+.card-sportcar {
+    position: relative;
+
+}
+
+.sport-cars-photo {
+    background-image: url(../img/backk2.png);
+    height: 1183px;
+    width: 100%;
+    margin-top: 34px;
+}
+
+.icons-under-block {
+    display: flex;
+    padding-top: 700px;
+    padding-left: 620px;
+
+}
+
+.w-flag-img {
+    padding-left: 218px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.photos-sportcars {
+    display: flex;
+    position: relative;
+    bottom: 40px;
+}
+
+.car-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.car-model {
+    display: flex;
+    align-items: baseline;
+}
+
+.car-mark {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.model-car {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 51px;
+    padding-left: 19px;
+}
+
+.settings {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 154.1%;
+}
+
+.description-setting {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 154.1%;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.button-under-settings {
+    display: flex;
+    justify-content: center;
+    padding-top: 71px;
+}
+
+.text-under-button {
+    padding-top: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 154.1%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
