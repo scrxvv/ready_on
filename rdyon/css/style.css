@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Bebas Neue', cursive;
 }
+
 
 .container {
     max-width: 1290px;
@@ -24,6 +24,11 @@
 }
 
 .text-menu {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
     margin-left: 20px;
     border: 2px solid transparent;
     padding-left: 30px;
@@ -35,7 +40,6 @@
 .text-menu:hover {
     border-color: #BA111A;
     border-radius: 10px;
-
 }
 
 .menu {
@@ -60,8 +64,11 @@
 }
 
 .big-text-under-header {
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 120px;
+    line-height: 114px;
 }
 
 .white-text {
@@ -70,7 +77,6 @@
 
 .Red-text {
     color: #DE131E;
-
 }
 
 .under-header {
@@ -87,8 +93,11 @@
 
 .text-w-lines {
     padding-left: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
     font-weight: 300;
     font-size: 15px;
+    line-height: 21px;
     color: #ffffff;
     width: 360px;
     height: 34px;
@@ -108,8 +117,11 @@ a.button24 {
     transition: 0.2s;
     width: 207px;
     height: 59px;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
     font-weight: 700;
     font-size: 25px;
+    line-height: 21px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -141,17 +153,26 @@ main {
 }
 
 .big-text-main {
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 120px;
+
 }
 
 .date-track {
-    margin-top: 76px;
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
+    font-weight: 700;
     font-size: 120px;
+
 }
 
 .under-date {
-    Font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
     color: #ffffff;
 }
 
@@ -178,6 +199,7 @@ main {
 }
 
 .circle {
+    font-family: 'Bebas Neue', cursive;
     width: 54px;
     height: 54px;
     background: #DE131E;
@@ -193,18 +215,21 @@ main {
 }
 
 .month {
+    font-family: 'Bebas Neue', cursive;
     Font-size: 13px;
     Line-height: 21px;
     color: #ffffff;
 }
 
 .wensday {
+    font-family: 'Bebas Neue', cursive;
     Font-size: 10px;
     Line-height: 21px;
     color: #595959;
 }
 
 .text-point {
+    font-family: 'Bebas Neue', cursive;
     color: #ffffff;
     Font-size: 15px;
     Line-height: 21px;
@@ -229,7 +254,11 @@ main {
 
 .header-in-staps {
     color: #ffffff;
-    Font-size: 40px;
+
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 80px;
 }
 
 .staps {
@@ -245,12 +274,16 @@ main {
 }
 
 .nomber-stap1 {
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
+    font-weight: 700;
     font-size: 150px;
     color: #DE131E;
     margin-top: 37px;
 }
 
 .stap-description1 {
+    font-family: 'Bebas Neue', cursive;
     padding-left: 657px;
 }
 
@@ -281,12 +314,16 @@ main {
 }
 
 .nomber-stap2 {
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
+    font-weight: 700;
     font-size: 150px;
     color: #DE131E;
     margin-top: 37px;
 }
 
 .stap-description2 {
+    font-family: 'Bebas Neue', cursive;
     padding-left: 0px;
 }
 
@@ -297,12 +334,16 @@ main {
 }
 
 .nomber-stap3 {
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
+    font-weight: 700;
     font-size: 150px;
     color: #DE131E;
     margin-top: 37px;
 }
 
 .stap-description3 {
+    font-family: 'Bebas Neue', cursive;
     padding-left: 686px;
 }
 
@@ -313,6 +354,9 @@ main {
 }
 
 .nomber-stap4 {
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
+    font-weight: 700;
     font-size: 150px;
     color: #DE131E;
     margin-top: 37px;
@@ -320,6 +364,7 @@ main {
 
 .stap-description4 {
     padding-left: 0px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .stap-5 {
@@ -329,12 +374,16 @@ main {
 }
 
 .nomber-stap5 {
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
+    font-weight: 700;
     font-size: 150px;
     color: #DE131E;
     margin-top: 37px;
 }
 
 .stap-description5 {
+    font-family: 'Bebas Neue', cursive;
     position: relative;
     top: 120px;
     padding-left: 672px;
@@ -348,14 +397,17 @@ main {
 .sport-cars {
     background-color: #060606;
     padding-top: 79px;
+    padding-bottom: 29px;
 }
 
 .text-header-sportcar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 .descrption-in-text-w-sportcar {
+    font-family: 'Bebas Neue', cursive;
     color: #FFFFFFE3;
     font-weight: 300;
     font-size: 18px;
@@ -409,20 +461,25 @@ main {
 
 .car-mark {
     color: #FFFFFF;
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
     font-weight: 700;
     font-size: 80px;
-    line-height: 92px;
 }
 
 .model-car {
     color: #FFFFFF;
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
     font-weight: 700;
     font-size: 45px;
     line-height: 51px;
+    text-transform: uppercase;
     padding-left: 19px;
 }
 
 .settings {
+    font-family: 'Bebas Neue', cursive;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 18px;
@@ -430,6 +487,7 @@ main {
 }
 
 .description-setting {
+    font-family: 'Bebas Neue', cursive;
     font-weight: 300;
     font-size: 15px;
     line-height: 154.1%;
@@ -450,4 +508,507 @@ main {
     color: #FFFFFF;
     display: flex;
     justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.GIFT_CERTIFICATES {
+    background-color: #0F0F0F;
+    height: 2158px;
+}
+
+.header-in-gift-block {
+    padding-top: 41px;
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 92px;
+    color: #ffffff;
+    width: 724px;
+
+}
+
+.block-best-podarok {
+    margin-top: 13px;
+    width: 255px;
+    height: 37px;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.gif-description {
+    padding-left: 6px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Bebas Neue Pro';
+}
+
+.full-block {
+    display: flex;
+}
+
+.tick-w-text {
+    padding-top: 74px;
+}
+
+.point-w-tick {
+    display: flex;
+    align-items: center;
+    width: 625px;
+    padding-bottom: 45px;
+
+}
+
+.tick-text {
+    padding-left: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    color: #FFFFFF;
+    font-family: 'Bebas Neue Pro';
+}
+
+a.button25 {
+
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+    background: #0F0F0F;
+    transition: 0.2s;
+    width: 207px;
+    height: 59px;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 21px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a.button25:hover {
+    background: #060606;
+}
+
+a.button25:active {
+    background: #060606;
+}
+
+.buttoms {
+    display: flex;
+
+
+}
+
+.button25 {
+    padding-right: 42px;
+}
+
+.but2 {
+    margin-left: 52px;
+}
+
+.right-block {
+    padding-top: 38px;
+}
+
+.check-in {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 46px;
+}
+
+.header-in-check-in {
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 80px;
+    color: #ffffff;
+}
+
+.check-in-description {
+    font-family: 'Bebas Neue ';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffffff;
+    width: 550px;
+    padding-left: 73px;
+}
+
+.video {
+    padding-top: 74px;
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    position: relative;
+    bottom: 476px;
+    left: 100px;
+}
+
+.feedback {
+    padding-top: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mark {
+    display: flex;
+}
+
+.mark-nomber {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.7419px;
+    color: #FFFFFF;
+    padding-left: 9px;
+}
+
+.mark-score {
+    padding-left: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.feedback-slider {
+    padding-top: 51px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background: #171717;
+    border-radius: 10px;
+    width: 300px;
+    height: 455px;
+}
+
+.all-in-card {
+    padding-left: 34px;
+    padding-top: 43px;
+
+    width: 226px;
+    height: 66px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.avatar {
+    border-radius: 50px;
+}
+
+.name {
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.city {
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 179.87%;
+    color: #FFFFFF;
+}
+
+.description-feedback {
+    color: #ffffff;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 151.9%;
+    width: 231px;
+    height: 230px;
+    padding-left: 36px;
+    padding-top: 32px;
+}
+
+.feedback-first {}
+
+.squares {
+    padding-top: 66px;
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    padding-left: 19px;
+}
+
+.question {
+    background-color: #060606;
+    width: 100%;
+    height: 1920px;
+    padding-bottom: 134px;
+}
+
+.question-w-answer {
+    padding-top: 330px;
+}
+
+.question-head {
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+
+    color: #FFFFFF;
+}
+
+.question-head2 {
+
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    color: #FFFFFF;
+    width: 1054px;
+}
+
+.full-question {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    ;
+}
+
+.full-question2 {
+    padding-top: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    padding-bottom: 74px;
+}
+
+.header-question {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-question {
+    padding-top: 38px;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.89);
+    width: 1140px;
+    padding-bottom: 74px;
+}
+
+.no-answer {
+    padding-top: 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-block-no-answer {}
+
+.right-block-no-answer {}
+
+.header-left-no-answer {
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 92px;
+    text-transform: uppercase;
+    width: 477px;
+    color: #FFFFFF;
+}
+
+.green-text {
+    padding-top: 9px;
+    color: #90C93A;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.connect {
+    padding-top: 56px;
+}
+
+.connect-w-icon {
+    display: flex;
+    padding-bottom: 45px;
+}
+
+.connection {
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.strela {
+    padding-left: 10px;
+}
+
+
+
+.wrapper {
+    color: #FFFFFF;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+
+}
+
+.your-name input {
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    width: 498px;
+    height: 55px;
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    padding-bottom: 29px;
+}
+
+.email input {
+    margin-top: 38px;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    width: 498px;
+    height: 20px;
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    padding-bottom: 29px;
+}
+
+.massage input {
+    margin-top: 38px;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    width: 498px;
+    height: 70px;
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    padding-bottom: 29px;
+}
+
+.text-w-checkbox {
+    padding-top: 43px;
+    color: #FFFFFF;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.custom-checkbox:checked+label::before {
+    background-color: #060606;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+.last-button {
+    padding-top: 79px;
+    
+}
+footer{
+    
+}
+.all-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    padding-top: 28px;
+    background-color: #060606;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-bottom: 56px;
+
+}
+
+.link a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-all {
+    display: flex;
+    
+}
+.link{
+    padding-left: 25px;
+}
+.links {
+    padding-left: 630px;
+    display: flex;
+
+}
+.strela-min{
+    padding-left: 5px;
 }
