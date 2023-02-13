@@ -13,6 +13,7 @@
     background-image: url(../img/back.png);
     width: 100%;
     height: 1070px;
+    background-size: cover;
 }
 
 .nav {
@@ -24,10 +25,10 @@
 }
 
 .text-menu {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 19px;
     line-height: 21px;
     margin-left: 20px;
     border: 2px solid transparent;
@@ -50,7 +51,9 @@
     display: flex;
     align-items: center;
 }
-
+.adaptive-icon{
+    display: none;
+}
 .icon {
     padding-right: 20px;
     width: 14px;
@@ -78,6 +81,9 @@
 .Red-text {
     color: #DE131E;
 }
+.Red-text-adaptive{
+    display: none;
+}
 
 .under-header {
     margin-top: 505px;
@@ -93,13 +99,13 @@
 
 .text-w-lines {
     padding-left: 20px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue Pro';
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 21px;
     line-height: 21px;
     color: #ffffff;
-    width: 360px;
+    width: 300px;
     height: 34px;
 }
 
@@ -159,7 +165,9 @@ main {
     font-size: 120px;
 
 }
-
+.calendar-w-adaptive{
+    display: none;
+}
 .date-track {
     font-family: 'Bebas Neue Pro';
     font-style: italic;
@@ -169,10 +177,10 @@ main {
 }
 
 .under-date {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue Pro';
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 21px;
     color: #ffffff;
 }
 
@@ -215,23 +223,26 @@ main {
 }
 
 .month {
-    font-family: 'Bebas Neue', cursive;
-    Font-size: 13px;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    Font-size: 21px;
     Line-height: 21px;
     color: #ffffff;
 }
 
 .wensday {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
     Font-size: 10px;
     Line-height: 21px;
     color: #595959;
 }
 
 .text-point {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
     color: #ffffff;
-    Font-size: 15px;
+    Font-size: 21px;
     Line-height: 21px;
     width: 360px;
 }
@@ -254,7 +265,6 @@ main {
 
 .header-in-staps {
     color: #ffffff;
-
     font-family: 'Bebas Neue Pro';
     font-style: italic;
     font-weight: 700;
@@ -288,9 +298,11 @@ main {
 }
 
 .stap-header-description {
-
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
     color: #ffffff;
-    font-size: 28px;
+    font-size: 35px;
+    font-weight: 700;
 }
 
 .stripe {
@@ -305,6 +317,10 @@ main {
 .stap-under-description {
     Width: 332px;
     color: #ffffff;
+    font-weight: 300;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-size: 24px;
 }
 
 .stap-2 {
@@ -399,7 +415,13 @@ main {
     padding-top: 79px;
     padding-bottom: 29px;
 }
-
+.sport-car-header{
+    color: #ffffff;
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 80px;
+}
 .text-header-sportcar {
     display: flex;
     align-items: center;
@@ -407,12 +429,13 @@ main {
 }
 
 .descrption-in-text-w-sportcar {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
     color: #FFFFFFE3;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 26px;
     line-height: 154.1%;
-    width: 828px;
+    width: 820px;
     height: 56px;
 }
 
@@ -420,13 +443,16 @@ main {
     position: relative;
 
 }
-
+.text-adaptive-model{
+    display: none;
+}
 .sport-cars-photo {
     background-image: url(../img/backk2.png);
     height: 1183px;
     width: 100%;
     margin-top: 34px;
 }
+
 
 .icons-under-block {
     display: flex;
@@ -479,17 +505,19 @@ main {
 }
 
 .settings {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
     color: #FFFFFF;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 154.1%;
 }
 
 .description-setting {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 154.1%;
     color: rgba(255, 255, 255, 0.89);
 }
@@ -503,14 +531,21 @@ main {
 .text-under-button {
     padding-top: 25px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 154.1%;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
 }
-
+.feedback-name{
+    font-family: 'Bebas Neue Pro';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 80px;
+    color: #ffffff;
+}
 .GIFT_CERTIFICATES {
     background-color: #0F0F0F;
     height: 2158px;
@@ -644,10 +679,10 @@ a.button25:active {
 }
 
 .check-in-description {
-    font-family: 'Bebas Neue ';
+    font-family: 'Bebas Neue Pro';
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 26px;
     color: #ffffff;
     width: 550px;
     padding-left: 73px;
@@ -677,7 +712,7 @@ a.button25:active {
 }
 
 .mark-nomber {
-    font-family: 'Montserrat';
+    font-family: 'Bebas Neue Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 23.7419px;
@@ -687,10 +722,10 @@ a.button25:active {
 
 .mark-score {
     padding-left: 12px;
-    font-family: 'Montserrat';
+    font-family: 'Bebas Neue Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.4;
@@ -703,6 +738,12 @@ a.button25:active {
 }
 
 .card {
+    background: #171717;
+    border-radius: 10px;
+    width: 300px;
+    height: 455px;
+}
+.card-all{
     background: #171717;
     border-radius: 10px;
     width: 300px;
@@ -1011,4 +1052,7 @@ footer{
 }
 .strela-min{
     padding-left: 5px;
+}
+.stap-img-adaptive{
+    display: none;
 }

@@ -1,0 +1,749 @@
+@media (min-width: 320px) and (max-width: 360px) {
+    .text-menu {
+        display: none;
+    }
+
+    .header {
+        object-fit: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+        width: 360px;
+        height: 379px;
+    }
+
+    .nav {
+        padding-top: 27px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-header {
+        width: 99px;
+        height: 29px;
+    }
+
+    .icons {}
+
+    .adaptive-icon {
+        padding-left: 17px;
+        display: block;
+
+    }
+
+    .under-header {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .big-text-under-header {
+        font-family: 'Bebas Neue Pro';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        width: 282px;
+        height: 131px;
+    }
+
+    .Red-text-adaptive {
+        display: block;
+        color: #DE131E;
+        font-size: 64px;
+    }
+
+    .Red-text {
+        display: none;
+    }
+
+
+    a.button24 {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: .5em 2em;
+        outline: none;
+        border-width: 2px 0;
+        border-style: solid none;
+        border-color: #DE131E;
+        border-radius: 10px;
+        background: #DE131E;
+        transition: 0.2s;
+        width: 153.88px;
+        height: 43.86px;
+        font-family: 'Bebas Neue Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 21px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    a.button24:hover {
+        background: #BA111A;
+    }
+
+    a.button24:active {
+        background: #BA111A;
+    }
+
+    .text-w-lines {
+        padding-left: 20px;
+        font-family: 'Bebas Neue Pro';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 19x;
+        line-height: 21px;
+        color: #ffffff;
+        width: 268px;
+        height: 34px;
+        margin-bottom: 70px;
+    }
+
+    .mouse-icon {
+        display: none;
+    }
+
+    .line {
+        /*width: 21px;
+        height: 44px;*/
+    }
+
+    .big-text-main {
+        display: none;
+    }
+
+    .date-track {
+        display: none;
+    }
+
+    .under-date {
+        display: none;
+    }
+
+    .track {
+        display: none;
+    }
+
+    .calendar-main {
+        display: none;
+    }
+
+    .calendar-w-adaptive {
+        margin-top: 60px;
+        display: block;
+        margin-left: 0px;
+    }
+
+    .point {
+        display: none;
+    }
+
+    .point2 {
+        margin-top: 70px;
+        width: 307px;
+        height: 80px;
+        background-color: #212121;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .month {
+        font-family: 'Bebas Neue Pro';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+
+        color: #ffffff;
+    }
+
+    .wensday {
+        font-family: 'Bebas Neue Pro';
+        font-style: normal;
+        font-size: 10px;
+        color: #595959;
+    }
+
+    .text-point {
+        font-family: 'Bebas Neue Pro';
+        font-style: normal;
+        color: #ffffff;
+        font-size: 20px;
+
+        width: 236px;
+    }
+
+    .date {
+        font-family: 'Bebas Neue Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 73px;
+        line-height: 21px;
+    }
+
+    .header-in-staps {
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        font-family: 'Bebas Neue Pro';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    .staps {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .stripe {
+        display: none;
+    }
+
+    .nomber-stap1 {
+        font-family: 'Bebas Neue Pro';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 46.8367px;
+        line-height: 54px;
+        margin-top: 0px;
+        margin-left: 28px;
+    }
+
+    .stap-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        background: none;
+
+        height: 307px;
+        width: 360px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #595959;
+    }
+
+    .stap-description1 {
+        font-family: 'Bebas Neue', cursive;
+        padding-left: 24px;
+    }
+
+    .stap-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: none;
+
+        height: 307px;
+        width: 360px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #595959;
+    }
+
+    .stap-description2 {
+        font-family: 'Bebas Neue', cursive;
+        padding-left: 24px;
+    }
+
+    .stap-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: none;
+
+        height: 307px;
+        width: 360px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #595959;
+    }
+
+    .nomber-stap3 {
+        font-family: 'Bebas Neue Pro';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 46.8367px;
+        line-height: 54px;
+        margin-top: 0px;
+        margin-left: 28px;
+    }
+
+    .stap-description3 {
+        font-family: 'Bebas Neue', cursive;
+        padding-left: 24px;
+    }
+
+    .stap-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: none;
+
+        height: 307px;
+        width: 360px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #595959;
+    }
+
+    .nomber-stap4 {
+        font-family: 'Bebas Neue Pro';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 46.8367px;
+        line-height: 54px;
+        margin-top: 0px;
+        margin-left: 28px;
+    }
+
+    .stap-description4 {
+        font-family: 'Bebas Neue', cursive;
+        padding-left: 24px;
+    }
+
+    .stap-5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: none;
+
+        height: 307px;
+        width: 360px;
+        padding-top: 24px;
+        padding-bottom: 29px;
+
+    }
+
+    .nomber-stap5 {
+        font-family: 'Bebas Neue Pro';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 46.8367px;
+        line-height: 54px;
+        margin-top: 0px;
+        margin-left: 28px;
+    }
+
+    .stap-description5 {
+        font-family: 'Bebas Neue', cursive;
+        padding-left: 24px;
+        position: static;
+    }
+
+    .stap-header-description {
+        font-family: 'Bebas Neue Pro';
+        font-style: normal;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 19px;
+    }
+
+    .stap-under-description {
+        Width: 250px;
+        color: #ffffff;
+        font-family: 'Bebas Neue Pro';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 19px;
+    }
+
+    .stap-img-adaptive {
+        padding-top: 21px;
+        display: block;
+    }
+
+    .text-staps-all {
+        display: flex;
+    }
+
+    .button-under-staps {
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+    .card-sportcar {
+        display: none;
+    }
+
+    .sport-car-header {
+        font-family: 'Bebas Neue Pro';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .descrption-in-text-w-sportcar {
+        font-weight: 300;
+        font-size: 23px;
+        width: 304px;
+        height: 115px;
+        margin-top: 14px;
+    }
+
+    .text-header-sportcar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .sport-cars-photo {
+        overflow: hidden;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 245px;
+        width: 100%;
+        margin-top: 34px;
+    }
+
+    .photos-sportcars {
+        bottom: 0px;
+    }
+
+    .w-flag-img {
+        display: none
+    }
+
+    .icons-under-block {
+        padding-top: 110px;
+        padding-left: 160px;
+    }
+
+    .pic360 {
+        width: 36px;
+        height: 35px;
+    }
+
+    .car-model {
+        display: none;
+    }
+
+    .text-adaptive-model {
+        display: block;
+        font-family: 'Bebas Neue Pro';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+    .car-description {
+        margin-top: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .settings {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 154.1%;
+    }
+
+    .description-setting {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 154.1%;
+    }
+
+    .text-under-button {
+        padding-top: 55px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 154.1%;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        font-family: 'Bebas Neue Pro';
+        font-style: normal;
+    }
+
+    .header-in-gift-block {
+        padding-top: 45px;
+        font-family: 'Bebas Neue Pro';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 92px;
+        color: #ffffff;
+    }
+
+    .block-best-podarok {
+        margin-top: 0px;
+        width: 242px;
+        height: 36px;
+        background: rgba(255, 255, 255, 0.09);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .full-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tick-w-text {
+        padding-top: 40px;
+    }
+
+    .tick-text {
+        padding-left: 18px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        color: #FFFFFF;
+        font-family: 'Bebas Neue Pro';
+        width: 265px;
+    }
+
+    .buttoms {
+        display: none;
+    }
+
+    .big-gift-photo {
+        width: 354px;
+        height: 555px;
+    }
+
+    .check-in {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-in-check-in {
+        font-family: 'Bebas Neue Pro';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        color: #ffffff;
+        margin-top: 42px;
+    }
+
+    .check-in-description {
+        font-family: 'Bebas Neue Pro';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        color: #ffffff;
+        width: 304px;
+        padding-left: 28px;
+        padding-top: 24px;
+    }
+
+
+    .left-gift-block {
+        margin-left: 28px;
+    }
+
+    .feedback-name {
+        font-family: 'Bebas Neue Pro';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        color: #ffffff;
+        padding-bottom: 10px;
+    }
+
+    .feedback-four {
+        display: flex;
+    }
+
+    .mark {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedback {
+        padding-top: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+    .card-all {
+        display: none;
+    }
+
+    .feedback-slider {
+        padding-top: 51px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .squares {
+        padding-top: 34px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .square {
+        padding-left: 7px;
+    }
+
+    .question-w-answer {
+        padding-top: 372px;
+    }
+
+    .question-head {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 154.1%;
+    }
+
+    .header-question {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .description-question {
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 154.1%;
+        width: 300px;
+        padding-left: 31px;
+    }
+
+    .question-head2 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 154.1%;
+        width: 253px;
+    }
+
+    .full-question2 {
+        padding-top: 23px;
+        padding-bottom: 31px;
+    }
+
+    .header-left-no-answer {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        width: 192px;
+    }
+
+    .no-answer {
+        padding-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center
+    }
+    .connect-w-icon{
+        padding-bottom: 20px;
+    }
+    .your-name input{
+        margin-top: 38px;
+        font-family: 'Bebas Neue Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        width: 304px;
+        height: 55px;
+        color: #FFFFFF;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+        padding-bottom: 29px;
+    }
+    .email input{
+        margin-top: 38px;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    width: 304px;
+    height: 55px;
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    padding-bottom: 29px;
+
+    }
+    .massage input{
+        margin-top: 38px;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    width: 304px;
+    height: 65px;
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    padding-bottom: 29px;
+    }
+    .wrapper{
+        padding-left: 28px;
+    }
+    .custom-checkbox+label{
+        padding-left: 30px;
+    }
+    .question{
+        height  : 100%;
+        padding-bottom: 100px;
+}
+    
+    .last-button {
+        padding-top: 57px;
+        padding-left: 50px;
+    }
+
+    .footer-all{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .link {
+         padding-left: 25px; 
+         padding-top: 10px;
+    }
+    .links{
+        padding-left: 0px;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 19px;
+    }
+    .social-link{
+        padding-top: 16px;
+    }
+}
