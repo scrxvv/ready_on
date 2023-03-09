@@ -1,63 +1,71 @@
 @media (min-width: 320px) and (max-width: 360px) {
     .text-menu {
+        
         flex-direction: column;
         row-gap: 30px;
-        display: none;
+        border-bottom: solid #595959 1px;
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        
+    }
+    .menu{
+     display: none;
+     flex-direction: column;
+     position: fixed;
+     height: 100%;
+     width: 100%;
+     top: 0; bottom: 0; left: 0; right: 0;
+     z-index: 50;
+     overflow-y: auto;
+     padding: 150px, 40px;
+     background-color: #212121;
+     padding-top: 100px;
+
     }
 
     .header {
         object-fit: cover;
         background-position: center center;
         background-repeat: no-repeat;
-
         width: 360px;
         height: 379px;
     }
-
     .nav {
         padding-top: 27px;
         justify-content: space-around;
         align-items: center;
     }
-
     .icon {
         display: none;
     }
-
     .language {
         display: none;
     }
-
-    
-    
-
     .logo-header {
         width: 99px;
         height: 29px;
+        z-index: 51;
     }
-
     .icons {}
-
     .adaptive-icon {
         padding-left: 17px;
         display: block; 
-       
+        z-index: 50;
+        margin-right: 40px;
+
     }
-
-
     .adaptive-icon_ru {
         padding-left: 17px;
         display: block;
-
     }
-
     .under-header {
         margin-top: 150px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-
     .big-text-under-header {
         font-family: 'Bebas Neue Pro';
         font-style: italic;
@@ -69,18 +77,14 @@
         width: 282px;
         height: 131px;
     }
-
     .Red-text-adaptive {
         display: block;
         color: #DE131E;
         font-size: 64px;
     }
-
     .Red-text {
         display: none;
     }
-
-
     a.button24 {
         display: inline-block;
         color: white;
@@ -104,15 +108,12 @@
         justify-content: space-around;
         align-items: center;
     }
-
     a.button24:hover {
         background: #BA111A;
     }
-
     a.button24:active {
         background: #BA111A;
     }
-
     .text-w-lines {
         padding-left: 20px;
         font-family: 'Bebas Neue Pro';
@@ -125,7 +126,6 @@
         height: 34px;
         margin-bottom: 70px;
     }
-
     .mouse-icon {
         display: none;
     }

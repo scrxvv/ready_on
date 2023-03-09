@@ -533,7 +533,12 @@
         </div>
 
     </footer>
-    <script src="script.js"></script>
+    <script>
+document.querySelector('.adaptive-icon').addEventListener('click', function(){
+    this.classList.toggle('active');
+    document.querySelector('.menu').classList.toggle('open')
+})
+    </script>
 </body>
 
 </html>
