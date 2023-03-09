@@ -1,5 +1,7 @@
 @media (min-width: 320px) and (max-width: 360px) {
     .text-menu {
+        flex-direction: column;
+        row-gap: 30px;
         display: none;
     }
 
@@ -26,10 +28,8 @@
         display: none;
     }
 
-    .menu {
-        display: flex;
-        align-items: center;
-    }
+    
+    
 
     .logo-header {
         width: 99px;
@@ -39,6 +39,13 @@
     .icons {}
 
     .adaptive-icon {
+        padding-left: 17px;
+        display: block; 
+       
+    }
+
+
+    .adaptive-icon_ru {
         padding-left: 17px;
         display: block;
 
@@ -496,6 +503,7 @@
         font-size: 32px;
         line-height: 92px;
         color: #ffffff;
+        width: 290px;
     }
 
     .block-best-podarok {
@@ -666,10 +674,12 @@
         flex-direction: column;
         align-items: center
     }
-    .connect-w-icon{
+
+    .connect-w-icon {
         padding-bottom: 20px;
     }
-    .your-name input{
+
+    .your-name input {
         margin-top: 38px;
         font-family: 'Bebas Neue Pro';
         font-style: normal;
@@ -683,67 +693,108 @@
         border-bottom: 1px solid rgba(255, 255, 255, 0.25);
         padding-bottom: 29px;
     }
-    .email input{
+
+    .email input {
         margin-top: 38px;
-    font-family: 'Bebas Neue Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    width: 304px;
-    height: 55px;
-    color: #FFFFFF;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-    padding-bottom: 29px;
+        font-family: 'Bebas Neue Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        width: 304px;
+        height: 55px;
+        color: #FFFFFF;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+        padding-bottom: 29px;
 
     }
-    .massage input{
+
+    .massage input {
         margin-top: 38px;
-    font-family: 'Bebas Neue Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    width: 304px;
-    height: 65px;
-    color: #FFFFFF;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-    padding-bottom: 29px;
+        font-family: 'Bebas Neue Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        width: 304px;
+        height: 65px;
+        color: #FFFFFF;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+        padding-bottom: 29px;
     }
-    .wrapper{
+
+    .wrapper {
         padding-left: 28px;
     }
-    .custom-checkbox+label{
+
+    .custom-checkbox+label {
         padding-left: 30px;
     }
-    .question{
-        height  : 100%;
+
+    .question {
+        height: 100%;
         padding-bottom: 100px;
-}
-    
+    }
+
     .last-button {
         padding-top: 57px;
         padding-left: 50px;
     }
 
-    .footer-all{
+    .footer-all {
         display: flex;
-    flex-direction: column;
-    align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
+
     .link {
-         padding-left: 25px; 
-         padding-top: 10px;
+        padding-left: 25px;
+        padding-top: 10px;
     }
-    .links{
+
+    .links {
         padding-left: 0px;
         flex-direction: column;
         justify-content: space-between;
         padding-top: 19px;
     }
-    .social-link{
+
+    .social-link {
         padding-top: 16px;
+    }
+
+    .first-half-car-description {
+        all: unset;
+    }
+
+    .second-half-car-description {
+        all: unset;
+    }
+
+    .sport-car-photo2 {
+        display: none;
+
+    }
+
+    .sport-car-photo1 {
+        width: 220px;
+        height: 99px;
+    }
+
+    .sport-car-photo3 {
+        object-fit: cover;
+        width: 70px;
+        height: 99px;
+        filter: brightness(40%)
+    }
+
+    .point-w-tick {
+        width: 265px;
+    }
+
+    .open {
+        display: flex !important;
     }
 }
